@@ -1,0 +1,302 @@
+body {
+	background-color: #333333;
+  color: #AAAAAA;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+  font-size: 62.5%;
+}
+h1 {
+  margin: 15px auto 0 auto;
+  width: 600px;
+  text-align: center;
+  font-size: 4em;
+}
+.trevo_wrapper {
+	position: relative;
+	margin: 80px auto 0 auto;
+	width: 366px;
+	height: 366px;
+}
+.trevo1 {
+	background-color: #11CC11;
+	position: relative;
+	left: 60px;
+	width: 0;
+	height: 120px;
+	border-left: 60px solid #11CC11;
+	border-top: 60px solid #11CC11;
+	border-right: 60px solid #11CC11;
+	border-radius: 60px 60px 0 0;
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	
+	-webkit-animation-name: pounding_trevo1;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	animation-name: pounding_trevo1;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes pounding_trevo1 {
+	0% {-webkit-transform: scale(1, 1);}
+	5% {-webkit-transform: scale(1, 1);}
+	10% {-webkit-transform: scale(1.025, 1.025);}
+	15% {-webkit-transform: scale(1.05, 1.05);}
+	10% {-webkit-transform: scale(01.075, 1.075);}
+	12.5% {-webkit-transform: scale(1.1, 1.1);}
+	15% {-webkit-transform: scale(01.075, 1.075);}
+	17.5% {-webkit-transform: scale(1.05, 1.05);}
+	20% {-webkit-transform: scale(1.025, 1.025);}
+	25% {-webkit-transform: scale(1, 1);}
+	100% {-webkit-transform: scale(1, 1);}
+}
+@keyframes pounding_trevo1 {
+	0% {transform: scale(1, 1);}
+	5% {transform: scale(1, 1);}
+	10% {transform: scale(1.025, 1.025);}
+	15% {transform: scale(1.05, 1.05);}
+	10% {transform: scale(01.075, 1.075);}
+	12.5% {transform: scale(1.1, 1.1);}
+	15% {transform: scale(01.075, 1.075);}
+	17.5% {transform: scale(1.05, 1.05);}
+	20% {transform: scale(1.025, 1.025);}
+	25% {transform: scale(1, 1);}
+	100% {transform: scale(1, 1);}
+}
+.trevo1:before {
+	content: " ";
+	background-color: #11CC11;
+	position: absolute;
+	left: -120px;
+	width: 120px;
+	height: 0;
+	border-top: 60px solid #11CC11;
+	border-left: 60px solid #11CC11;
+	border-bottom: 60px solid #11CC11;
+	border-radius: 60px 0 0 60px;
+}
+.trevo2 {
+	background-color: #11CC11;
+	position: absolute;
+	top: 0;
+	left: 186px;
+	width: 0;
+	height: 120px;
+	border-left: 60px solid #11CC11;
+	border-top: 60px solid #11CC11;
+	border-right: 60px solid #11CC11;
+	border-radius: 60px 60px 0 0;
+	-webkit-transform-origin: 0% 100%;
+	-moz-transform-origin: 0% 100%;
+	
+	-webkit-animation-name: pounding_trevo2;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	animation-name: pounding_trevo2;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes pounding_trevo2 {
+	0% {-webkit-transform: scale(1, 1);}
+	50% {-webkit-transform: scale(1, 1);}
+	52.5% {-webkit-transform: scale(1.025, 1.025);}
+	55% {-webkit-transform: scale(1.05, 1.05);}
+	57.5% {-webkit-transform: scale(01.075, 1.075);}
+	60% {-webkit-transform: scale(1.1, 1.1);}
+	62.5% {-webkit-transform: scale(01.075, 1.075);}
+	65% {-webkit-transform: scale(1.05, 1.05);}
+	67.5% {-webkit-transform: scale(1.025, 1.025);}
+	75% {-webkit-transform: scale(1, 1);}
+	100% {-webkit-transform: scale(1, 1);}
+}
+@keyframes pounding_trevo2 {
+	0% {transform: scale(1, 1);}
+	50% {transform: scale(1, 1);}
+	52.5% {transform: scale(1.025, 1.025);}
+	55% {transform: scale(1.05, 1.05);}
+	57.5% {transform: scale(01.075, 1.075);}
+	60% {transform: scale(1.1, 1.1);}
+	62.5% {transform: scale(01.075, 1.075);}
+	65% {transform: scale(1.05, 1.05);}
+	67.5% {transform: scale(1.025, 1.025);}
+	75% {transform: scale(1, 1);}
+	100% {transform: scale(1, 1);}
+}
+.trevo2:before {
+	content: " ";
+	background-color: #11CC11;
+	position: absolute;
+	top: 0;
+	left: -60px;
+	width: 120px;
+	height: 0;
+	border-top: 60px solid #11CC11;
+	border-left: 60px solid #11CC11;
+	border-bottom: 60px solid #11CC11;
+	border-radius: 0 60px 60px 0;
+}
+.trevo3 {
+	background-color: #11CC11;
+	position: relative;
+	left: 60px;
+	margin: 6px 0 0 0;
+	width: 0;
+	height: 120px;
+	border-left: 60px solid #11CC11;
+	border-top: 60px solid #11CC11;
+	border-right: 60px solid #11CC11;
+	border-radius: 0 0 60px 60px;
+	-webkit-transform-origin: 100% 0%;
+	-moz-transform-origin: 100% 0%;
+	
+	-webkit-animation-name: pounding_trevo3;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	animation-name: pounding_trevo3;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes pounding_trevo3 {
+	0% {-webkit-transform: scale(1, 1);}
+	75% {-webkit-transform: scale(1, 1);}
+	77.5% {-webkit-transform: scale(1.025, 1.025);}
+	80% {-webkit-transform: scale(1.05, 1.05);}
+	82.5% {-webkit-transform: scale(01.075, 1.075);}
+	85% {-webkit-transform: scale(1.1, 1.1);}
+	87.5% {-webkit-transform: scale(01.075, 1.075);}
+	90% {-webkit-transform: scale(1.05, 1.05);}
+	92.5% {-webkit-transform: scale(1.025, 1.025);}
+	95% {-webkit-transform: scale(1, 1);}
+	100% {-webkit-transform: scale(1, 1);}
+}
+@keyframes pounding_trevo3 {
+	0% {transform: scale(1, 1);}
+	75% {transform: scale(1, 1);}
+	77.5% {transform: scale(1.025, 1.025);}
+	80% {transform: scale(1.05, 1.05);}
+	82.5% {transform: scale(01.075, 1.075);}
+	85% {transform: scale(1.1, 1.1);}
+	87.5% {transform: scale(01.075, 1.075);}
+	90% {transform: scale(1.05, 1.05);}
+	92.5% {transform: scale(1.025, 1.025);}
+	95% {transform: scale(1, 1);}
+	100% {transform: scale(1, 1);}
+}
+.trevo3:before {
+	content: " ";
+	background-color: #11CC11;
+	position: absolute;
+	top: -60px;
+	left: -120px;
+	width: 120px;
+	height: 0;
+	border-top: 60px solid #11CC11;
+	border-left: 60px solid #11CC11;
+	border-bottom: 60px solid #11CC11;
+	border-radius: 60px 0 0 60px;
+}
+.trevo4 {
+	background-color: #11CC11;
+	position: absolute;
+	top: 186px;
+	left: 186px;
+	width: 0;
+	height: 120px;
+	border-left: 60px solid #11CC11;
+	border-top: 60px solid #11CC11;
+	border-right: 60px solid #11CC11;
+	border-radius: 0 0 60px 60px;
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	
+	-webkit-animation-name: pounding_trevo4;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	animation-name: pounding_trevo4;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes pounding_trevo4 {
+	0% {-webkit-transform: scale(1, 1);}
+	25% {-webkit-transform: scale(1, 1);}
+	27.5% {-webkit-transform: scale(1.025, 1.025);}
+	30% {-webkit-transform: scale(1.05, 1.05);}
+	32.5% {-webkit-transform: scale(01.075, 1.075);}
+	35% {-webkit-transform: scale(1.1, 1.1);}
+	37.5% {-webkit-transform: scale(01.075, 1.075);}
+	40% {-webkit-transform: scale(1.05, 1.05);}
+	42.5% {-webkit-transform: scale(1.025, 1.025);}
+	50% {-webkit-transform: scale(1, 1);}
+	100% {-webkit-transform: scale(1, 1);}
+}
+@keyframes pounding_trevo4 {
+	0% {transform: scale(1, 1);}
+	25% {transform: scale(1, 1);}
+	27.5% {transform: scale(1.025, 1.025);}
+	30% {transform: scale(1.05, 1.05);}
+	32.5% {transform: scale(01.075, 1.075);}
+	35% {transform: scale(1.1, 1.1);}
+	37.5% {transform: scale(01.075, 1.075);}
+	40% {transform: scale(1.05, 1.05);}
+	42.5% {transform: scale(1.025, 1.025);}
+	50% {transform: scale(1, 1);}
+	100% {transform: scale(1, 1);}
+}
+.trevo4:before {
+	content: " ";
+	background-color: #11CC11;
+	position: absolute;
+	top: -60px;
+	left: -60px;
+	width: 120px;
+	height: 0;
+	border-top: 60px solid #11CC11;
+	border-left: 60px solid #11CC11;
+	border-bottom: 60px solid #11CC11;
+	border-radius: 0 60px 60px 0;
+}
